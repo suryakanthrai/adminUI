@@ -1,0 +1,137 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    min-height: 100vh;
+  }
+  
+  .search-input {
+    border: 1px solid #dbdbdb;
+    outline: none;
+    font-family: Roboto;
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  th,
+  td {
+    border-bottom: 1px solid #dbdbdb;
+    padding: 8px;
+    font-size: 32px;
+  }
+  
+  th {
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    th {
+      font-size: 25px;
+    }
+  }
+  
+  td {
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    th {
+      font-size: 20px;
+    }
+  }
+  
+  .checkbox {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .icon-column {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .action-green-icon {
+    color: #4eeb3f;
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+  }
+  
+  .action-red-icon {
+    color: #f22259;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .input-edit {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #8e998d;
+    text-align: center;
+  }
+  
+  .main-heading {
+    font-family: Roboto;
+    font-size: 30px;
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .page-btn {
+    border-radius: 80px;
+    border: 1px solid #1bc9f5;
+    width: 30px;
+    height: 30px;
+    font-family: Roboto;
+    font-size: 15px;
+    margin: 10px;
+    background: #1bc9f5;
+  }
+  
+  .active {
+    background: transparent;
+  }
+  
+  .arrow-btn {
+    border-radius: 80px;
+    border: 1px solid #080808;
+    width: 30px;
+    height: 30px;
+    font-family: Roboto;
+    font-size: 15px;
+    margin: 10px;
+    background: #ffffff;
+  }
+  
+  .delete-button {
+    border: none;
+    color: #ffffff;
+    background-color: #f22259;
+    font-family: Roboto;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+  }
+  
+  .selected-row {
+    background-color: grey;
+  }
